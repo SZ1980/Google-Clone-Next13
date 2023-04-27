@@ -1,4 +1,4 @@
-import HhomeSearch from "@/components/HhomeSearch";
+import HomeSearch from "@/components/HomeSearch";
 import HomeHeader from "@/components/HomeHeader";
 import Image from "next/image";
 import React from "react";
@@ -14,7 +14,7 @@ export default function Home() {
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/640px-Google_2015_logo.svg.png"
           alt="google"
         />
-        <HhomeSearch />
+        <HomeSearch />
       </div>
     </>
   );
